@@ -8,6 +8,7 @@ const Input = () => {
     const handlesubmit=(e)=>{
         e.preventDefault()
         dispatch(addname(name))
+        setName('')
         
  }
   return (
